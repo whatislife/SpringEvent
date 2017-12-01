@@ -27,6 +27,7 @@ public class StudentAddBean implements ApplicationContextAware {
                 m_applicationContext, _sStudentName);
         // 2.触发增加学生事件
         m_applicationContext.publishEvent(aStudentEvent);
+    
     }
 
     /**
